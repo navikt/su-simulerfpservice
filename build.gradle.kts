@@ -1,15 +1,21 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.3.70"
     `java-library`
+    id("uk.co.boothen.gradle.wsimport") version "0.16"
 }
-
+version = "1.0.0"
 repositories {
     jcenter()
+    mavenCentral()
 }
 
-dependencies {
-    implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+java {
+    sourceCompatibility = JavaVersion.VERSION_12
+    targetCompatibility = JavaVersion.VERSION_12
+}
+
+wsimport {
+    wsdl ("no/nav/system/os/eksponering/simulerFpServiceWSBinding.wsdl")
+    verbose = false
+    quiet = true
+    debug = false
 }
