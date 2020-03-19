@@ -1,7 +1,10 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     `java-library`
     id("uk.co.boothen.gradle.wsimport") version "0.16"
     id("maven-publish")
+    kotlin("jvm") version "1.3.70"
 }
 group = "no.nav"
 version = "1.0.0"
@@ -18,7 +21,7 @@ java {
 }
 
 wsimport {
-    wsdl ("no/nav/system/os/eksponering/simulerFpServiceWSBinding.wsdl")
+    wsdl ("no/nav/system/no.nav.os/eksponering/simulerFpServiceWSBinding.wsdl")
     verbose = false
     quiet = true
     debug = false
@@ -57,4 +60,21 @@ configure<PublishingExtension> {
             from(components["java"])
         }
     }
+}
+val cxfVersion = "3.3.3"
+dependencies {
+    implementation(kotlin("stdlib-jdk8"))
+
+    implementation("org.apache.cxf:cxf-rt-frontend-jaxws:$cxfVersion")
+    implementation("org.apache.cxf:cxf-rt-features-logging:$cxfVersion")
+    implementation("org.apache.cxf:cxf-rt-ws-security:$cxfVersion")
+    implementation("org.apache.cxf:cxf-rt-transports-http:$cxfVersion")
+}
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "1.8"
 }
