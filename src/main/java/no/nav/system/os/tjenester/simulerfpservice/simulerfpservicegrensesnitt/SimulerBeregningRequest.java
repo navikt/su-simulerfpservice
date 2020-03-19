@@ -1,5 +1,5 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
+package no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -35,17 +35,17 @@ import javax.xml.bind.annotation.XmlType;
 public class SimulerBeregningRequest {
 
     @XmlElement(required = true)
-    protected no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest request;
+    protected no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest request;
 
     /**
      * Gets the value of the request property.
      * 
      * @return
      *     possible object is
-     *     {@link no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest }
+     *     {@link no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest }
      *     
      */
-    public no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest getRequest() {
+    public no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest getRequest() {
         return request;
     }
 
@@ -54,10 +54,10 @@ public class SimulerBeregningRequest {
      * 
      * @param value
      *     allowed object is
-     *     {@link no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest }
+     *     {@link no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest }
      *     
      */
-    public void setRequest(no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest value) {
+    public void setRequest(no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningRequest value) {
         this.request = value;
     }
 

@@ -1,5 +1,5 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
+package no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -33,17 +33,17 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "simulerBeregningResponse")
 public class SimulerBeregningResponse {
 
-    protected no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse response;
+    protected no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse response;
 
     /**
      * Gets the value of the response property.
      * 
      * @return
      *     possible object is
-     *     {@link no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse }
+     *     {@link no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse }
      *     
      */
-    public no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse getResponse() {
+    public no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse getResponse() {
         return response;
     }
 
@@ -52,10 +52,10 @@ public class SimulerBeregningResponse {
      * 
      * @param value
      *     allowed object is
-     *     {@link no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse }
+     *     {@link no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse }
      *     
      */
-    public void setResponse(no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse value) {
+    public void setResponse(no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SimulerBeregningResponse value) {
         this.response = value;
     }
 

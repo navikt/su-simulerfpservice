@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.oppdragskjema;
+package no.nav.system.os.entiteter.oppdragskjema;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
-import no.nav.os.system.entiteter.typer.simpletypes.KodeStatus;
+import no.nav.system.os.entiteter.typer.simpletypes.KodeStatus;
 
 
 /**
@@ -74,7 +74,7 @@ import no.nav.os.system.entiteter.typer.simpletypes.KodeStatus;
     "tekst"
 })
 @XmlSeeAlso({
-    no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.Oppdrag.class
+    no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.Oppdrag.class
 })
 public class Oppdrag {
 

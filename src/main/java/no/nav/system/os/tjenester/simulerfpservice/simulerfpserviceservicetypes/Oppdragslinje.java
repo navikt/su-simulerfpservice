@@ -1,5 +1,5 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes;
+package no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-import no.nav.os.system.entiteter.oppdragskjema.Attestant;
-import no.nav.os.system.entiteter.oppdragskjema.Enhet;
-import no.nav.os.system.entiteter.oppdragskjema.Grad;
-import no.nav.os.system.entiteter.oppdragskjema.RefusjonsInfo;
-import no.nav.os.system.entiteter.oppdragskjema.Tekst;
-import no.nav.os.system.entiteter.oppdragskjema.Valuta;
+import no.nav.system.os.entiteter.oppdragskjema.Attestant;
+import no.nav.system.os.entiteter.oppdragskjema.Enhet;
+import no.nav.system.os.entiteter.oppdragskjema.Grad;
+import no.nav.system.os.entiteter.oppdragskjema.RefusjonsInfo;
+import no.nav.system.os.entiteter.oppdragskjema.Tekst;
+import no.nav.system.os.entiteter.oppdragskjema.Valuta;
 
 
 /**
@@ -49,7 +49,7 @@ import no.nav.os.system.entiteter.oppdragskjema.Valuta;
     "valuta"
 })
 public class Oppdragslinje
-    extends no.nav.os.system.entiteter.oppdragskjema.Oppdragslinje
+    extends no.nav.system.os.entiteter.oppdragskjema.Oppdragslinje
 {
 
     @XmlElement(namespace = "http://nav.no/system/os/entiteter/oppdragSkjema")

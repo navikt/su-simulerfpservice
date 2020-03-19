@@ -1,5 +1,5 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes;
+package no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-import no.nav.os.system.entiteter.oppdragskjema.Avstemmingsnokkel;
-import no.nav.os.system.entiteter.oppdragskjema.Bilagstype;
-import no.nav.os.system.entiteter.oppdragskjema.Ompostering;
+import no.nav.system.os.entiteter.oppdragskjema.Avstemmingsnokkel;
+import no.nav.system.os.entiteter.oppdragskjema.Bilagstype;
+import no.nav.system.os.entiteter.oppdragskjema.Ompostering;
 
 
 /**
@@ -42,7 +42,7 @@ import no.nav.os.system.entiteter.oppdragskjema.Ompostering;
     "oppdragslinje"
 })
 public class Oppdrag
-    extends no.nav.os.system.entiteter.oppdragskjema.Oppdrag
+    extends no.nav.system.os.entiteter.oppdragskjema.Oppdrag
 {
 
     @XmlElement(namespace = "http://nav.no/system/os/entiteter/oppdragSkjema")

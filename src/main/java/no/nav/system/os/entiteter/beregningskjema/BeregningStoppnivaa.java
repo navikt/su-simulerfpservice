@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.beregningskjema;
+package no.nav.system.os.entiteter.beregningskjema;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

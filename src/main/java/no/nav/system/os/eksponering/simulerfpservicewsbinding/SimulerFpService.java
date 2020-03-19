@@ -1,5 +1,5 @@
 
-package no.nav.os.system.eksponering.simulerfpservicewsbinding;
+package no.nav.system.os.eksponering.simulerfpservicewsbinding;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -8,11 +8,11 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
 
-import no.nav.os.system.tjenester.simulerfpservice.feil.ObjectFactory;
-import no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SendInnOppdragRequest;
-import no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SendInnOppdragResponse;
-import no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SimulerBeregningRequest;
-import no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SimulerBeregningResponse;
+import no.nav.system.os.tjenester.simulerfpservice.feil.ObjectFactory;
+import no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SendInnOppdragRequest;
+import no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SendInnOppdragResponse;
+import no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SimulerBeregningRequest;
+import no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt.SimulerBeregningResponse;
 
 
 /**
@@ -24,13 +24,13 @@ import no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt.S
 @WebService(name = "simulerFpService", targetNamespace = "http://nav.no/system/os/tjenester/simulerFpService/simulerFpServiceGrensesnitt")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
-    no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.ObjectFactory.class,
-    no.nav.os.system.entiteter.beregningskjema.ObjectFactory.class,
-    no.nav.os.system.entiteter.infomelding.ObjectFactory.class,
-    no.nav.os.system.entiteter.oppdragskjema.ObjectFactory.class,
+    no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.ObjectFactory.class,
+    no.nav.system.os.entiteter.beregningskjema.ObjectFactory.class,
+    no.nav.system.os.entiteter.infomelding.ObjectFactory.class,
+    no.nav.system.os.entiteter.oppdragskjema.ObjectFactory.class,
     ObjectFactory.class,
-    no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt.ObjectFactory.class,
-    no.nav.os.system.entiteter.typer.simpletypes.ObjectFactory.class
+    no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt.ObjectFactory.class,
+    no.nav.system.os.entiteter.typer.simpletypes.ObjectFactory.class
 })
 public interface SimulerFpService {
 

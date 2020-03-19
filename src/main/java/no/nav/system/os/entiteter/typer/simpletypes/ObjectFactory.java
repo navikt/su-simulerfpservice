@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.typer.simpletypes;
+package no.nav.system.os.entiteter.typer.simpletypes;
 
 import javax.xml.bind.annotation.XmlRegistry;
 

@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.oppdragskjema;
+package no.nav.system.os.entiteter.oppdragskjema;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
-import no.nav.os.system.entiteter.typer.simpletypes.FradragTillegg;
-import no.nav.os.system.entiteter.typer.simpletypes.KodeArbeidsgiver;
-import no.nav.os.system.entiteter.typer.simpletypes.KodeStatusLinje;
+import no.nav.system.os.entiteter.typer.simpletypes.FradragTillegg;
+import no.nav.system.os.entiteter.typer.simpletypes.KodeArbeidsgiver;
+import no.nav.system.os.entiteter.typer.simpletypes.KodeStatusLinje;
 
 
 /**
@@ -111,7 +111,7 @@ import no.nav.os.system.entiteter.typer.simpletypes.KodeStatusLinje;
     "refLinjeId"
 })
 @XmlSeeAlso({
-    no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.Oppdragslinje.class
+    no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.Oppdragslinje.class
 })
 public class Oppdragslinje {
 

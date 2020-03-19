@@ -1,5 +1,5 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.feil;
+package no.nav.system.os.tjenester.simulerfpservice.feil;
 
 import javax.xml.bind.annotation.XmlRegistry;
 

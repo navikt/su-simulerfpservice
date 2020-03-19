@@ -1,9 +1,9 @@
 
-package no.nav.os.system.eksponering.simulerfpservicewsbinding;
+package no.nav.system.os.eksponering.simulerfpservicewsbinding;
 
 import javax.xml.ws.WebFault;
 
-import no.nav.os.system.tjenester.simulerfpservice.feil.FeilUnderBehandling;
+import no.nav.system.os.tjenester.simulerfpservice.feil.FeilUnderBehandling;
 
 
 /**

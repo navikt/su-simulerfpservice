@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.oppdragskjema;
+package no.nav.system.os.entiteter.oppdragskjema;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import no.nav.os.system.entiteter.typer.simpletypes.KodeStatusLinje;
+import no.nav.system.os.entiteter.typer.simpletypes.KodeStatusLinje;
 
 
 /**

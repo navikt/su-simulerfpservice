@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.oppdragskjema;
+package no.nav.system.os.entiteter.oppdragskjema;
 
 import java.math.BigInteger;
 import javax.xml.bind.annotation.XmlAccessType;

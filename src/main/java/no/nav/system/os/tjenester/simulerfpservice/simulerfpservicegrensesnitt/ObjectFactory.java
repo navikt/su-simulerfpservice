@@ -1,12 +1,12 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
+package no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
 import javax.xml.namespace.QName;
 
-import no.nav.os.system.tjenester.simulerfpservice.feil.FeilUnderBehandling;
+import no.nav.system.os.tjenester.simulerfpservice.feil.FeilUnderBehandling;
 
 
 /**

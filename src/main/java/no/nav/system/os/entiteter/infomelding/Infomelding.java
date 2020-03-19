@@ -1,5 +1,5 @@
 
-package no.nav.os.system.entiteter.infomelding;
+package no.nav.system.os.entiteter.infomelding;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

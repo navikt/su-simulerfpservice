@@ -1,5 +1,5 @@
 
-package no.nav.os.system.eksponering.simulerfpservicewsbinding;
+package no.nav.system.os.eksponering.simulerfpservicewsbinding;
 
 import java.net.MalformedURLException;
 import java.net.URL;

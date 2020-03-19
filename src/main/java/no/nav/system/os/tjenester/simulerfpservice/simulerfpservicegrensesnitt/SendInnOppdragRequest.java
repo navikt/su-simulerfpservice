@@ -1,5 +1,5 @@
 
-package no.nav.os.system.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
+package no.nav.system.os.tjenester.simulerfpservice.simulerfpservicegrensesnitt;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -35,17 +35,17 @@ import javax.xml.bind.annotation.XmlType;
 public class SendInnOppdragRequest {
 
     @XmlElement(required = true)
-    protected no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest request;
+    protected no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest request;
 
     /**
      * Gets the value of the request property.
      * 
      * @return
      *     possible object is
-     *     {@link no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest }
+     *     {@link no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest }
      *     
      */
-    public no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest getRequest() {
+    public no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest getRequest() {
         return request;
     }
 
@@ -54,10 +54,10 @@ public class SendInnOppdragRequest {
      * 
      * @param value
      *     allowed object is
-     *     {@link no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest }
+     *     {@link no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest }
      *     
      */
-    public void setRequest(no.nav.os.system.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest value) {
+    public void setRequest(no.nav.system.os.tjenester.simulerfpservice.simulerfpserviceservicetypes.SendInnOppdragRequest value) {
         this.request = value;
     }
 
